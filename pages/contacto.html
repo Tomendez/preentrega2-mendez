@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/98964eb6ca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Contacto</title>
+</head>
+
+<body class="fondo-1">
+    <nav class="navbar navbar-expand-lg bg-warning p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../inicio.html">Satori</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../inicio.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">Nuestros Productos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Que mueble buscas?" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+                <img src="../assets/SATORI HERRERIA_(1).jpg" alt="">
+
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="container-fluid">
+            <div class="container">
+                <div>
+                    <h2 class="text-center mb-5 p-3 text-white bg-primary">CONTACTANOS</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 shadow rounded p-5 text-white fs-5">
+                        <div class="row">
+                            <div class="col mb-3">
+                                <label class="form-label">Nombre</label>
+                                <input type="text" class="form-control" placeholder="Tu nombre">
+                            </div>
+                            <div class="col mb-3">
+                                <label class="form-label">Apellido</label>
+                                <input type="text" class="form-control" placeholder="Tu apellido">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="col mb-3">
+                                <label class="form-label">Correo Electrónico</label>
+                                <input type="text" class="form-control" placeholder="Tu email">
+                            </div>
+                            <div class="col mb-3">
+                                <label class="form-label">Motivo</label>
+                                <input type="text" class="form-control" placeholder="">
+                            </div>
+                            <div class="col mb-3">
+                                <label class="form-label">Mensaje</label>
+                                <textarea name="" class="form-control" placeholder="Contanos qué necesitás..."
+                                    rows="3"></textarea>
+                            </div>
+
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Enviar
+                            </button>
+
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-primary">Enviar Datos</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 shadow rounded ">
+                        <div class="ml-6"><iframe class="iframe"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.6312474354672!2d-58.23097438507925!3d-34.81521807622581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a328569d1880f9%3A0x66d970a3c244d8e2!2sE.%20D%20Amicis%20664%2C%20B1889%20Bosques%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1674587856446!5m2!1ses-419!2sar"
+                                allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="">
+                        <img src="../assets/mi-proyecto.png" alt="">
+                    </a>
+                </figure>
+            </div>
+            <div class="box text-white">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Satori Herreria nació en 2020 como una necesidad de salir adelante frente a la pandemia.</p>
+                <p>Hoy en día se convirtió en una empresa que brinda muebles duraderos y de calidad para sus hogares.</p>
+            </div>
+            <div class="box text-white">
+                <h2>SEGUINOS</h2>
+                <div class="red-social">
+                    <a target="_blank" href="https://www.facebook.com/satori.herreria/" class="fa fa-facebook logo"></a>
+                    <a target="_blank" href="https://www.instagram.com/satori.herreria" class="fa fa-instagram logo"></a>
+                    <a target="_blank" href="https://api.whatsapp.com/send/?phone=1122465279&text&type=phone_number&app_absent=0" class="fa-brands fa-whatsapp logo"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2 text-white">
+            <small> &copy; 2023 <b>Satori Herreria</b> - Todos los derechos reservados. </small>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
